@@ -42,7 +42,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         markerMe.snippet = "Here is my location"
         markerMe.icon = UIImage(named:"mario")
         markerMe.map = self.mapView
-        
+        let camera = GMSCameraPosition.camera(withLatitude: oldLocation.latitude, longitude: oldLocation.longitude, zoom: 15)
+        self.mapView.camera = camera
+
         
     }
 
