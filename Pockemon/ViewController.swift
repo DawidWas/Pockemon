@@ -28,9 +28,21 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         }
         
+        
     }
-
+    var oldLocation = CLLocationCoordinate2D(latitude: 0, longitude: 0)
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        oldLocation = manager.location!.coordinate
+        
+        let markerMe = GMSMarker()
+        markerMe.position = CLLocationCoordinate2D(latitude: oldLocation.latitude, longitude: oldLocation.longitude )
+        markerMe.title = "Me"
+        markerMe.snippet = "Here is my location"
+        markerMe.icon = UIImage(named:"mario")
+        markerMe.map = self.mapView
+        
         
     }
 
