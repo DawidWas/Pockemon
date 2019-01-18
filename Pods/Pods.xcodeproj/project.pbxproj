@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0747EF379E34C0D87EE4B6DCA2A426DA /* Pods-Pockemon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E95DA46FDC4A9E419624B9E6B87280AE /* Pods-Pockemon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9981AEE091A3E10BE0D38183690BDA /* Pods-PockemonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 713941B2FD40F800C19F992A1BD2579B /* Pods-PockemonUITests-dummy.m */; };
+		378949746CFA3813B1219D3AAB25C085 /* Pods-PockemonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD370DE3B774ECBC110BD7C7BBBFB6 /* Pods-PockemonTests-dummy.m */; };
+		40B2898ED56C67994B505C50152ECACD /* Pods-PockemonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260C3D635289E6BA1B2EDB90EEC864F /* Pods-PockemonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46797EE71EAC10624792EB0F5812F3F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		4F1E5306B26E8245757C0EE688617685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		5CEEB703B265B49FB21FFD6C290E2AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		9A9C9151316FF4F255CFF323A894301E /* Pods-PockemonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A4B87524F03567ECDE51905F1BAE02 /* Pods-PockemonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1945DD7DF2261854D7084FCB3F9363 /* Pods-Pockemon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8443B9B9691F7DDE686EBFF7D182668 /* Pods-Pockemon-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57748E5649F4E15220CB09AF2AF1EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 245D620A76C30DF82176924ED922FFC4;
+			remoteInfo = "Pods-Pockemon";
+		};
+		EF60D8279517296F6D1EC35C4ABA8A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 245D620A76C30DF82176924ED922FFC4;
+			remoteInfo = "Pods-Pockemon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AD370DE3B774ECBC110BD7C7BBBFB6 /* Pods-PockemonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PockemonTests-dummy.m"; sourceTree = "<group>"; };
+		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		0AA92AC000032A5995A379205DC0119B /* Pods-PockemonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PockemonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CA1D72BF6B23124C25E3E8B3F00B00D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		2260C3D635289E6BA1B2EDB90EEC864F /* Pods-PockemonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PockemonTests-umbrella.h"; sourceTree = "<group>"; };
+		24DD2DD3EAB5B1C07A1753470F97560F /* Pods-Pockemon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pockemon-acknowledgements.plist"; sourceTree = "<group>"; };
+		298EA5B9212E3DD14D03CE268DE3E848 /* Pods-PockemonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PockemonTests.modulemap"; sourceTree = "<group>"; };
+		2EBC0B1D7D5F0EC3CAE0C9638B617CEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3778243F531EAD759B698D9B30FA72A7 /* Pods-PockemonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PockemonTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D821BFD82798D18CC607C71F6A3C674 /* Pods-PockemonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PockemonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D9D83516F419829E1168640C2C12384 /* Pods-Pockemon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pockemon.modulemap"; sourceTree = "<group>"; };
+		63A4B87524F03567ECDE51905F1BAE02 /* Pods-PockemonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PockemonUITests-umbrella.h"; sourceTree = "<group>"; };
+		644552985892948FA1268A5BBC6A5E9D /* Pods-Pockemon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pockemon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		713941B2FD40F800C19F992A1BD2579B /* Pods-PockemonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PockemonUITests-dummy.m"; sourceTree = "<group>"; };
+		768291EACAD451FDC3F479824555BC56 /* Pods-Pockemon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pockemon-frameworks.sh"; sourceTree = "<group>"; };
+		7916C6CBFAEBC2B1DE4C4469D455CC6C /* Pods-Pockemon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pockemon-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9615B55B58F9BF4DCB6C7A74C96D960A /* Pods-PockemonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PockemonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AB36DDE77050CFB963F755E76D13E99 /* Pods-Pockemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pockemon.debug.xcconfig"; sourceTree = "<group>"; };
+		A4CDB43A4973988FCBCEA226D377286E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B377FA0AC0F90D4A63E62D72CFA69629 /* Pods-PockemonTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PockemonTests-resources.sh"; sourceTree = "<group>"; };
+		B83F4F67345E54D0D6FB4698977009B9 /* Pods-PockemonUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PockemonUITests-resources.sh"; sourceTree = "<group>"; };
+		B9C4BFAAEB96BF8E08206E3836126586 /* Pods-PockemonTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PockemonTests-frameworks.sh"; sourceTree = "<group>"; };
+		BC21C33E224DC07AEB843604FBEF7FA1 /* Pods_PockemonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PockemonUITests.framework; path = "Pods-PockemonUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFAB415CEB54076C654A834304A923E /* Pods-PockemonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PockemonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFF66F06C058BA8824B5BFC7F634640B /* Pods_Pockemon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pockemon.framework; path = "Pods-Pockemon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24D4139AE4012312E0621984FA438B8 /* Pods-PockemonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PockemonUITests.modulemap"; sourceTree = "<group>"; };
+		C8443B9B9691F7DDE686EBFF7D182668 /* Pods-Pockemon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pockemon-dummy.m"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAAA64117B60B157DC814C32D63E0EFC /* Pods_PockemonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PockemonTests.framework; path = "Pods-PockemonTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD887BD5EE2DEB715900674F7C9DC3FD /* Pods-PockemonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PockemonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E95DA46FDC4A9E419624B9E6B87280AE /* Pods-Pockemon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pockemon-umbrella.h"; sourceTree = "<group>"; };
+		EA0B97D6711DF0B6C56E6064C2843C93 /* Pods-PockemonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PockemonUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EC34187E636BF9DD8606A2956FEF8ECB /* Pods-PockemonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PockemonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC298B6353DD463EF0643E38C26B7EBB /* Pods-PockemonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PockemonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE36B8CCC85E3C0AF1B4CF51FC44AAE5 /* Pods-Pockemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pockemon.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F21A277D063136FBB1F6F9B86B32857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEEB703B265B49FB21FFD6C290E2AB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76741B50BBB804AD21E1574236BB322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46797EE71EAC10624792EB0F5812F3F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F8DF92906368F4D8C446B3D2285AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E5306B26E8245757C0EE688617685 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				475420FA59EFC8377CF994A338979247 /* Frameworks */,
+				09DB508F39D8BE758EA4A7B9047268E9 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		09DB508F39D8BE758EA4A7B9047268E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1321CC83DB38C55D75451D30D31342C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF66F06C058BA8824B5BFC7F634640B /* Pods_Pockemon.framework */,
+				DAAA64117B60B157DC814C32D63E0EFC /* Pods_PockemonTests.framework */,
+				BC21C33E224DC07AEB843604FBEF7FA1 /* Pods_PockemonUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
+				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		2A63E1ED761FE9B1035C34B04F076659 /* Pods-PockemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC0B1D7D5F0EC3CAE0C9638B617CEF /* Info.plist */,
+				C24D4139AE4012312E0621984FA438B8 /* Pods-PockemonUITests.modulemap */,
+				EC34187E636BF9DD8606A2956FEF8ECB /* Pods-PockemonUITests-acknowledgements.markdown */,
+				BDFAB415CEB54076C654A834304A923E /* Pods-PockemonUITests-acknowledgements.plist */,
+				713941B2FD40F800C19F992A1BD2579B /* Pods-PockemonUITests-dummy.m */,
+				EA0B97D6711DF0B6C56E6064C2843C93 /* Pods-PockemonUITests-frameworks.sh */,
+				B83F4F67345E54D0D6FB4698977009B9 /* Pods-PockemonUITests-resources.sh */,
+				63A4B87524F03567ECDE51905F1BAE02 /* Pods-PockemonUITests-umbrella.h */,
+				DD887BD5EE2DEB715900674F7C9DC3FD /* Pods-PockemonUITests.debug.xcconfig */,
+				FC298B6353DD463EF0643E38C26B7EBB /* Pods-PockemonUITests.release.xcconfig */,
+			);
+			name = "Pods-PockemonUITests";
+			path = "Target Support Files/Pods-PockemonUITests";
+			sourceTree = "<group>";
+		};
+		3265043B13B1FF0CA2D00C52D69336B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DFEE3FC2B2E9ADF6089765726BA04B7 /* Pods-Pockemon */,
+				C47BAE878FFDC340CA90FF39C91CBA7B /* Pods-PockemonTests */,
+				2A63E1ED761FE9B1035C34B04F076659 /* Pods-PockemonUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		343584E22C57489C672A8E6F731CB43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
+				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
+				343584E22C57489C672A8E6F731CB43A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DFEE3FC2B2E9ADF6089765726BA04B7 /* Pods-Pockemon */ = {
+			isa = PBXGroup;
+			children = (
+				0CA1D72BF6B23124C25E3E8B3F00B00D /* Info.plist */,
+				4D9D83516F419829E1168640C2C12384 /* Pods-Pockemon.modulemap */,
+				644552985892948FA1268A5BBC6A5E9D /* Pods-Pockemon-acknowledgements.markdown */,
+				24DD2DD3EAB5B1C07A1753470F97560F /* Pods-Pockemon-acknowledgements.plist */,
+				C8443B9B9691F7DDE686EBFF7D182668 /* Pods-Pockemon-dummy.m */,
+				768291EACAD451FDC3F479824555BC56 /* Pods-Pockemon-frameworks.sh */,
+				7916C6CBFAEBC2B1DE4C4469D455CC6C /* Pods-Pockemon-resources.sh */,
+				E95DA46FDC4A9E419624B9E6B87280AE /* Pods-Pockemon-umbrella.h */,
+				9AB36DDE77050CFB963F755E76D13E99 /* Pods-Pockemon.debug.xcconfig */,
+				FE36B8CCC85E3C0AF1B4CF51FC44AAE5 /* Pods-Pockemon.release.xcconfig */,
+			);
+			name = "Pods-Pockemon";
+			path = "Target Support Files/Pods-Pockemon";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				385FA015FFB9210F372AB1078B856AAB /* Pods */,
+				1321CC83DB38C55D75451D30D31342C3 /* Products */,
+				3265043B13B1FF0CA2D00C52D69336B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
+				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C47BAE878FFDC340CA90FF39C91CBA7B /* Pods-PockemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CDB43A4973988FCBCEA226D377286E /* Info.plist */,
+				298EA5B9212E3DD14D03CE268DE3E848 /* Pods-PockemonTests.modulemap */,
+				3D821BFD82798D18CC607C71F6A3C674 /* Pods-PockemonTests-acknowledgements.markdown */,
+				0AA92AC000032A5995A379205DC0119B /* Pods-PockemonTests-acknowledgements.plist */,
+				00AD370DE3B774ECBC110BD7C7BBBFB6 /* Pods-PockemonTests-dummy.m */,
+				B9C4BFAAEB96BF8E08206E3836126586 /* Pods-PockemonTests-frameworks.sh */,
+				B377FA0AC0F90D4A63E62D72CFA69629 /* Pods-PockemonTests-resources.sh */,
+				2260C3D635289E6BA1B2EDB90EEC864F /* Pods-PockemonTests-umbrella.h */,
+				9615B55B58F9BF4DCB6C7A74C96D960A /* Pods-PockemonTests.debug.xcconfig */,
+				3778243F531EAD759B698D9B30FA72A7 /* Pods-PockemonTests.release.xcconfig */,
+			);
+			name = "Pods-PockemonTests";
+			path = "Target Support Files/Pods-PockemonTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		492C1009E0B178172A8C532C83A2D81F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0747EF379E34C0D87EE4B6DCA2A426DA /* Pods-Pockemon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F295BE810D3BF8598696CF2FE615339 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9C9151316FF4F255CFF323A894301E /* Pods-PockemonUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175B4D3BEEEA943992ED54103EEE6E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B2898ED56C67994B505C50152ECACD /* Pods-PockemonTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13D141DA423898C9B3E31D6E9F72E5E9 /* Pods-PockemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B7B5DECBD3F7D15A05E55D7FD9B773 /* Build configuration list for PBXNativeTarget "Pods-PockemonTests" */;
+			buildPhases = (
+				9175B4D3BEEEA943992ED54103EEE6E6 /* Headers */,
+				67735F0758EB8C6C0929E5E00CFB57B9 /* Sources */,
+				5F21A277D063136FBB1F6F9B86B32857 /* Frameworks */,
+				A550460BA22DEA3A5BC300CE6C3FFFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B81C8967957E7F52C892252F9DB48D /* PBXTargetDependency */,
+			);
+			name = "Pods-PockemonTests";
+			productName = "Pods-PockemonTests";
+			productReference = DAAA64117B60B157DC814C32D63E0EFC /* Pods_PockemonTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		245D620A76C30DF82176924ED922FFC4 /* Pods-Pockemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2D4F30618F8E77260418610028F350 /* Build configuration list for PBXNativeTarget "Pods-Pockemon" */;
+			buildPhases = (
+				492C1009E0B178172A8C532C83A2D81F /* Headers */,
+				A2AD26B5827BACB940792525620EBA77 /* Sources */,
+				F2F8DF92906368F4D8C446B3D2285AE0 /* Frameworks */,
+				D6013F0440485D332DD5265BB228D03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pockemon";
+			productName = "Pods-Pockemon";
+			productReference = BFF66F06C058BA8824B5BFC7F634640B /* Pods_Pockemon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A432997915E1617B9E92255999CEAF7 /* Pods-PockemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9950F4112C2C3CE856E72EBED4FC5E /* Build configuration list for PBXNativeTarget "Pods-PockemonUITests" */;
+			buildPhases = (
+				5F295BE810D3BF8598696CF2FE615339 /* Headers */,
+				EEFDA177FC4F1D6A7BD75B60DBBD1E7B /* Sources */,
+				76741B50BBB804AD21E1574236BB322F /* Frameworks */,
+				91D4EC5B5E0E4DA8C4A42023A0076910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609579BE105EC70849736EBE5D5D913C /* PBXTargetDependency */,
+			);
+			name = "Pods-PockemonUITests";
+			productName = "Pods-PockemonUITests";
+			productReference = BC21C33E224DC07AEB843604FBEF7FA1 /* Pods_PockemonUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1321CC83DB38C55D75451D30D31342C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				245D620A76C30DF82176924ED922FFC4 /* Pods-Pockemon */,
+				13D141DA423898C9B3E31D6E9F72E5E9 /* Pods-PockemonTests */,
+				3A432997915E1617B9E92255999CEAF7 /* Pods-PockemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D4EC5B5E0E4DA8C4A42023A0076910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A550460BA22DEA3A5BC300CE6C3FFFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6013F0440485D332DD5265BB228D03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67735F0758EB8C6C0929E5E00CFB57B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378949746CFA3813B1219D3AAB25C085 /* Pods-PockemonTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2AD26B5827BACB940792525620EBA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1945DD7DF2261854D7084FCB3F9363 /* Pods-Pockemon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFDA177FC4F1D6A7BD75B60DBBD1E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9981AEE091A3E10BE0D38183690BDA /* Pods-PockemonUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B81C8967957E7F52C892252F9DB48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Pockemon";
+			target = 245D620A76C30DF82176924ED922FFC4 /* Pods-Pockemon */;
+			targetProxy = EF60D8279517296F6D1EC35C4ABA8A33 /* PBXContainerItemProxy */;
+		};
+		609579BE105EC70849736EBE5D5D913C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Pockemon";
+			target = 245D620A76C30DF82176924ED922FFC4 /* Pods-Pockemon */;
+			targetProxy = A57748E5649F4E15220CB09AF2AF1EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D49211B31520E2F3C5BFDDE650BB7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE36B8CCC85E3C0AF1B4CF51FC44AAE5 /* Pods-Pockemon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pockemon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pockemon/Pods-Pockemon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E8BD44114A46388910CCF15E213F03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD887BD5EE2DEB715900674F7C9DC3FD /* Pods-PockemonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PockemonUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PockemonUITests/Pods-PockemonUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5241DD269087B93EAFF29CFB21A6FED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3778243F531EAD759B698D9B30FA72A7 /* Pods-PockemonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PockemonTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PockemonTests/Pods-PockemonTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		538DCBDE36A64C599ECA81B257F072B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9615B55B58F9BF4DCB6C7A74C96D960A /* Pods-PockemonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PockemonTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PockemonTests/Pods-PockemonTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CBEE16071439671AEAA8F3A9DFE8C9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC298B6353DD463EF0643E38C26B7EBB /* Pods-PockemonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PockemonUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PockemonUITests/Pods-PockemonUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE7C57E7368520F37BF9AB09C8C03983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB36DDE77050CFB963F755E76D13E99 /* Pods-Pockemon.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pockemon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pockemon/Pods-Pockemon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2D4F30618F8E77260418610028F350 /* Build configuration list for PBXNativeTarget "Pods-Pockemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7C57E7368520F37BF9AB09C8C03983 /* Debug */,
+				1D49211B31520E2F3C5BFDDE650BB7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D9950F4112C2C3CE856E72EBED4FC5E /* Build configuration list for PBXNativeTarget "Pods-PockemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8BD44114A46388910CCF15E213F03E /* Debug */,
+				CBEE16071439671AEAA8F3A9DFE8C9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B7B5DECBD3F7D15A05E55D7FD9B773 /* Build configuration list for PBXNativeTarget "Pods-PockemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538DCBDE36A64C599ECA81B257F072B9 /* Debug */,
+				5241DD269087B93EAFF29CFB21A6FED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
