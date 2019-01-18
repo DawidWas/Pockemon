@@ -10,6 +10,7 @@
 		54EA7BAD48DF5EDAB9B44F5C /* Pods_Pockemon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2A1B7D0952385C5689936 /* Pods_Pockemon.framework */; };
 		898AE45E6D91E57721813FFA /* Pods_PockemonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D28BA4FBD4C6F4A2F35FCA /* Pods_PockemonUITests.framework */; };
 		9991322711954307BBD9A6E9 /* Pods_PockemonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671AAFD55F93AD1BBA55193B /* Pods_PockemonTests.framework */; };
+		D33D9FEB21F21ADD003E19DB /* Pockemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D9FEA21F21ADD003E19DB /* Pockemon.swift */; };
 		D3572C3E21F1E1F8001C5667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3572C3D21F1E1F8001C5667 /* AppDelegate.swift */; };
 		D3572C4021F1E1F8001C5667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3572C3F21F1E1F8001C5667 /* ViewController.swift */; };
 		D3572C4321F1E1F8001C5667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3572C4121F1E1F8001C5667 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		B7842AA272B54071DF324C6D /* Pods-Pockemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pockemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pockemon/Pods-Pockemon.release.xcconfig"; sourceTree = "<group>"; };
 		C6CA8B4F32D78B8C1FDAF2A0 /* Pods-PockemonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PockemonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PockemonUITests/Pods-PockemonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB532B21C08819DA0912C187 /* Pods-Pockemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pockemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pockemon/Pods-Pockemon.debug.xcconfig"; sourceTree = "<group>"; };
+		D33D9FEA21F21ADD003E19DB /* Pockemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pockemon.swift; sourceTree = "<group>"; };
 		D3572C3A21F1E1F8001C5667 /* Pockemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pockemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3572C3D21F1E1F8001C5667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3572C3F21F1E1F8001C5667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		D3572C3C21F1E1F8001C5667 /* Pockemon */ = {
 			isa = PBXGroup;
 			children = (
+				D33D9FEA21F21ADD003E19DB /* Pockemon.swift */,
 				D3572C3D21F1E1F8001C5667 /* AppDelegate.swift */,
 				D3572C3F21F1E1F8001C5667 /* ViewController.swift */,
 				D3572C4121F1E1F8001C5667 /* Main.storyboard */,
@@ -394,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3572C4021F1E1F8001C5667 /* ViewController.swift in Sources */,
+				D33D9FEB21F21ADD003E19DB /* Pockemon.swift in Sources */,
 				D3572C3E21F1E1F8001C5667 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
