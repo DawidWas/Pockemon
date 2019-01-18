@@ -48,13 +48,28 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         markerMe.icon = UIImage(named:"mario")
         markerMe.map = self.mapView
         
+        var index = 0
         for pockemon in listPockemon{
+            if pockemon.isCatch == false {
             let markerPockemon = GMSMarker()
             markerPockemon.position = CLLocationCoordinate2D(latitude: pockemon.latitude!, longitude: pockemon.longitude! )
             markerPockemon.title = pockemon.name!
             markerPockemon.snippet = "\(pockemon.des!), power \(pockemon.power!)"
             markerPockemon.icon = UIImage(named:pockemon.image!)
             markerPockemon.map = self.mapView
+            
+            
+      //catch pock
+            if  (Double(oldLocation.latitude).roundTo(places: 4) ==
+                Double(pockemon.latitude!).roundTo(places: 4)) && (Double(oldLocation.longitude).roundTo(places: 4) ==
+                    Double(pockemon.longitude!).roundTo(places: 4)){
+                listPockemon[index].isCatch = true
+                
+            }
+                
+            }
+            
+            index = index + 1
         }
         
         
@@ -64,11 +79,28 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
     }
     
+    var playerPower:Double = 0.0
+    
     func LoadPockemons(){
         self.listPockemon.append(Pockemon(latitude: 37.7789994893035, longitude: -122.401846647263, image: "charmander", name: "Charmander", des: "Fire pockemon", power: 55))
         self.listPockemon.append(Pockemon(latitude: 37.7949994893035, longitude: -122.410446647263, image: "bulbasaur", name: "Bulbasaur", des: "Nature pockemon", power: 90))
         self.listPockemon.append(Pockemon(latitude: 37.7816994893035, longitude: -122.412246647263, image: "squirtle", name: "Squirtle", des: "Water pockemon", power: 33))
     }
+    
+    
+    func AlertDialog(PockemonPower: Double){
+        playerPower = playerPower + PockemonPower
+        let alert = UIAlertController(title: "Catch new pocke", message: "your new power is \(playerPower)", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: {action in print("+ One")}))
+        self.present(alert, animated: true, completion: nil)
+    }
 
+}
+
+extension Double{
+    func roundTo(places:Int) -> Double {
+        let divisor = pow(10.0, Double(places))
+        return (self * divisor).rounded() / divisor
+    }
 }
 
